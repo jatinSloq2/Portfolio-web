@@ -1,0 +1,104 @@
+@media (max-width: 768px) {
+  .intro-title {
+    font-size: 2.5rem;
+  }
+
+  .intro-text {
+    font-size: 1rem;
+  }
+
+  .social-icons a {
+    font-size: 1.2rem;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+  }
+
+  .about-section {
+    height: 100%;
+  }
+
+  .col-lg-8 .arrow-container {
+    display: none;
+  }
+  .footer {
+    text-align: center;
+  }
+  #desktop-text {
+    display: none;
+  }
+  #mobile-text {
+    display: visible;
+  }
+
+  .arrow-container {
+    left: 43%;
+    transform: translateX(-43%);
+  }
+  .border-line {
+    border: 1px solid rgb(0, 0, 0);
+    width: 90%;
+    margin-left: 5%;
+  }
+  .block{
+    animation-range: entry 0% cover 20%;
+  }
+}
+
+@media (max-width: 353px) {
+  .card {
+    transform: none;
+  }
+  .nav-logo {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 406px) {
+  .nav-logo {
+    font-size: 1.2rem;
+  }
+  .border-line {
+    border: 1px solid rgb(0, 0, 0);
+    width: 100%;
+  }
+}
+
+@media (max-width: 331px) {
+  .nav-logo {
+    font-size: 0.98rem;
+  }
+  .arrow-container {
+   
+    left: 35%;
+    transform: translateX(-35%);
+  }
+  .border-line {
+    border: 1px solid rgb(0, 0, 0);
+    width: 100%;
+  }
+}
+
+@media(max-width:545px){
+  .arrow-container {
+   
+    left: 41%;
+    transform: translateX(-41%);
+  }
+}
+
+@media(max-width:450px){
+  .arrow-container {
+   
+    left: 39%;
+    transform: translateX(-39%);
+  }
+}
+
+@media(max-width:400px){
+  .arrow-container {
+   
+    left: 37%;
+    transform: translateX(-37%);
+  }
+}
